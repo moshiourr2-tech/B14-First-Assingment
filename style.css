@@ -1,7 +1,11 @@
 * {
   margin: 0;
 }
+section{
+    padding: 80px 8%;
+    row-gap: 30px;
 
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -68,3 +72,21 @@ header {
   font-size: 35px;
   border-radius: 5px;
 }
+.head{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    margin-top: 80px;
+}
+.our-file{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* .our-file img h2,h3,h4{
+
+    border: 2px solid black;
+} */
+ .profession{
+     color: #1e5de4;
+ }
+ 
