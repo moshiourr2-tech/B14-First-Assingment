@@ -1,3 +1,70 @@
-body{
-    background-color: aqua;
+* {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+.logo {
+  font-size: 40px;
+}
+ul {
+  display: flex;
+  font-size: 2rem;
+  list-style: none;
+  gap: 20px;
+}
+.btn {
+  background-color: #2563eb;
+  border: none;
+  font-size: 30px;
+  border-radius: 5px;
+}
+/* banner{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.banner-content{
+    flex: 1;
+    text-align: center;
+    width: 1600px;
+    height: 900px; */
+/* } */
+header {
+  background-image: url('./images/banner.jpg');
+  height: 90vh;
+  margin-top: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  align-items: center;
+}
+/* .font{
+    background-color: aliceblue; */
+/* } */
+.content {
+  color: white;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+/* .content button{
+    width: 8px;
+} */
+.btn2 {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  margin-left: 40%;
+  margin-top: 20%;
+  background-color: #2563eb;
+  border: none;
+  font-size: 35px;
+  border-radius: 5px;
 }
