@@ -108,7 +108,7 @@ header {
  }
  .card-cointainer div{
     margin-top: 60px;
-    background-color: rgba(242, 238, 238, 0.956);
+    /* background-color: rgba(242, 238, 238, 0.956); */
     width: 400px;
     height: 500px;
     }
@@ -119,7 +119,72 @@ header {
         padding: 20px;
         ::marker{
             color: #2563eb;
+            
         }
+        .holder hr{
+            border: none;
+            border-top: 1px solid black;
+            margin: 15px 0;
+            
+        }
+           
+    }
+    .btn3{
+    
+        color: #1e5de4;
+        border-radius: 10px;
+        border-width: none;
+    
+        
+    }
+    .btn4{
+        color: white;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    .btn5{
+        color: black;
+        border-color: black;
+        border-radius: 10px;
     }
  
- 
+ .holder2{
+    display: grid;
+    color: white;
+    background-color: rgb(13, 9, 59);
+     border: 1px solid rgb(42,41,41);
+    border-radius: 10px;
+    padding: 20px;
+ }
+ .holder3{
+    display: grid;
+    border: 1px solid rgb(42, 41,41);
+    border-radius: 10px;
+    padding: 20px;
+ }
+ .missing-section{
+    color: blue;
+    background-color: #b7b7c3;
+    display: grid;
+    justify-content: center;
+    width: 95%;
+    height: 600px;
+    margin: 60px auto;
+    border: 3px dashed #8b5cf6;
+    border-radius: 20px;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 0px 0px;
+    
+
+ }
+ .carry h1{
+          font-size: 4rem;
+ }
+ .carry p{
+    font-size: 3rem;
+    font-weight: 600px;
+ }
