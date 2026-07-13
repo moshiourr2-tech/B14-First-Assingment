@@ -6,26 +6,37 @@ section{
     row-gap: 30px;
 
 }
+.speaker-image{
+border-radius: 10px;
+    width: 100%;
+}
 nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 80px;
+  
 }
-.logo {
-  font-size: 40px;
+.border-card{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;  
+}
+.nav-logo {
+  font-size: 30px;
 }
 ul {
   display: flex;
-  font-size: 2rem;
+  font-size: 30px;
   list-style: none;
   gap: 20px;
 }
-.btn {
+.button-style {
   background-color: #2563eb;
   border: none;
-  font-size: 30px;
+  font-size: 25px;
   border-radius: 5px;
 }
+
 /* banner{
     display: flex;
     align-items: center;
@@ -39,6 +50,7 @@ ul {
 /* } */
 header {
   background-image: url('./images/banner.jpg');
+
   height: 90vh;
   margin-top: 40px;
   background-repeat: no-repeat;
@@ -50,7 +62,7 @@ header {
 /* .font{
     background-color: aliceblue; */
 /* } */
-.content {
+.box-content {
   color: white;
   text-align: center;
   display: grid;
@@ -61,46 +73,39 @@ header {
 /* .content button{
     width: 8px;
 } */
-.btn2 {
-  display: flex;
-  justify-content: center;
-  width: 15%;
-  margin-left: 40%;
-  margin-top: 20%;
-  background-color: #2563eb;
-  border: none;
-  font-size: 35px;
-  border-radius: 5px;
-}
+
+/* top right part */
+
 .head{
     display: flex;
     justify-content: center;
     font-size: 4rem;
     margin-top: 80px;
 }
-.our-file{
+/* for speaker part */
+.border-container{
     display: grid;
+    gap: 15px;
     grid-template-columns: repeat(2, 1fr);
 }
-/* .our-file img h2,h3,h4{
 
-    border: 2px solid black;
-} */
- .profession{
+ .speaker-skills-unit{
      color: #1e5de4;
  }
- .middle{
+ .early-bird{
     display: grid;
     justify-content: center;
     font-size : 2rem;
     text-align: center;
     
  }
- .top{
+ .spot-part{
     display: grid;
     justify-content: center;
     font-size: 1rem;
  }
+
+ /* three card part buttom */
  .card-cointainer{
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -112,6 +117,7 @@ header {
     width: 400px;
     height: 500px;
     }
+/* pricing and three card information */
     .holder{
         display: grid;
         border: 1px solid rgb(42, 41, 41);
@@ -120,35 +126,10 @@ header {
         ::marker{
             color: #2563eb;
             
-        }
-        .holder hr{
-            border: none;
-            border-top: 1px solid black;
-            margin: 15px 0;
-            
-        }
-           
-    }
-    .btn3{
+        }  
+     }
     
-        color: #1e5de4;
-        border-radius: 10px;
-        border-width: none;
-    
-        
-    }
-    .btn4{
-        color: white;
-        background-color: blue;
-        border-radius: 10px;
-    }
-    .btn5{
-        color: black;
-        border-color: black;
-        border-radius: 10px;
-    }
- 
- .holder2{
+    .holder-two{
     display: grid;
     color: white;
     background-color: rgb(13, 9, 59);
@@ -162,6 +143,46 @@ header {
     border-radius: 10px;
     padding: 20px;
  }
+
+
+    .hr-{
+        color: black;
+        width: 100px;
+        height: 1px;
+    }
+    /* All Button Together */
+    .button-one {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  margin-left: 40%;
+  margin-top: 20%;
+  background-color: #2563eb;
+  border: none;
+  font-size: 35px;
+  border-radius: 5px;
+}
+    .button-two{
+    
+        color: #1e5de4;
+        border-radius: 10px;
+        border-width: none;
+    
+        
+    }
+    .button-three{
+        color: white;
+        background-color: blue;
+        border-radius: 10px;
+    }
+    .button-four{
+        color: black;
+        border-color: black;
+        border-radius: 10px;
+    }
+ 
+  /* ai part */
+
  .missing-section{
     color: blue;
     background-color: #b7b7c3;
@@ -181,10 +202,28 @@ header {
     
 
  }
- .carry h1{
+
+ /* In ai part  */
+
+ .ai-part h1{
           font-size: 4rem;
  }
- .carry p{
+ .ai-part  p{
     font-size: 3rem;
     font-weight: 600px;
+ }
+ .footer{
+    display: grid;
+    justify-content: space-between left and right;
+    align-items: center;
+    padding: 20px 80px;
+ }
+ .social-mediax{
+    display: flex;
+    flex-direction: column;
+
+ }
+ .facebook-f{
+    display: flex;
+    justify-content: space-between;
  }
