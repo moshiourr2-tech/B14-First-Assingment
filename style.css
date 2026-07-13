@@ -134,6 +134,7 @@ header {
     
  }
  .card-cointainer div{
+    display: grid;
     margin-top: 60px;
     /* background-color: rgba(242, 238, 238, 0.956); */
     width: 400px;
@@ -149,6 +150,7 @@ header {
 
     .holder{
         display: grid;
+        justify-content: center;
         border: 1px solid rgb(42, 41, 41);
         border-radius: 10px;
         padding: 20px;
@@ -201,6 +203,7 @@ header {
     border-radius: 10px;
     padding: 20px;
  }
+ 
  .missing-section{
     color: blue;
     background-color: #b7b7c3;
@@ -233,7 +236,7 @@ header {
     align-items: center;
     padding: 20px 80px;
  }
- .social-mediax{
+ .social-media{
     display: grid;
     justify-content: space-between;
     text-align: justify;
