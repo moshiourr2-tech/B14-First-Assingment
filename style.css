@@ -247,11 +247,11 @@ header {
   justify-content: space-between;
   text-align: justify;
 }
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 .footer {
   background-color: #1e293b;
 }
